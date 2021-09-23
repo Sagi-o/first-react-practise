@@ -1,0 +1,39 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: left;
+}
+
+.input {
+    border-radius: 4px;
+    text-decoration: none;
+    appearance: none;
+    height: 1.5rem;
+}
+
+.input.error {
+    border: 1px solid red;
+}
+
+.input.warning {
+    border: 1px solid salmon;
+}
+
+.hint {
+    border-radius: 4px;
+    padding: .25rem;
+    background: lightgray;
+    width: auto;
+    display: inline-block;
+    margin-block-start: .25rem;
+}
+
+.hint.error {
+    border: 1px solid red;
+    background: salmon;
+}
+
+.hint.warning {
+    border: 1px solid salmon;
+}

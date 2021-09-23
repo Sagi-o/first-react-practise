@@ -1,0 +1,27 @@
+.expense-item {
+    display: flex;
+    flex-direction: row;
+    padding: .5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.expense-item__date {
+    margin-inline-end: 1rem;
+    width: 130px;
+}
+
+.expense-item__title {
+    font-weight: bold;
+}
+
+.expense-item__description {
+    margin-inline-start: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.expense-item__price {
+    margin-inline-start: auto;
+}

@@ -1,0 +1,16 @@
+.my-store {
+}
+
+.my-store__title {
+    margin-block-end: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.my-store__state {
+    margin: 2rem;
+}
+
+.my-store__buttons {
+    margin-block-start: .5rem;
+}

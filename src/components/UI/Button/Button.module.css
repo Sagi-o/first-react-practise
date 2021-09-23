@@ -1,0 +1,14 @@
+.button {
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 1rem;
+    padding: .25rem .75rem;
+    appearance: none;
+    transition: 300ms ease-out;
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 100%;
+    }
+}

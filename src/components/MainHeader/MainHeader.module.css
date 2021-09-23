@@ -1,0 +1,28 @@
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-block-end: 1rem;
+    margin-block-start: 1rem;
+    padding-block-end: 1rem;
+    border-block-end: 1px solid lightgray;
+}
+
+.main-header__item {
+    padding: .5rem 1rem;
+    margin-inline-end: 1rem;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    transition: 200ms ease-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: black
+}
+
+.main-header__item:hover {
+    background: lightgray;
+}
+
+.active {
+    background: blanchedalmond;
+}

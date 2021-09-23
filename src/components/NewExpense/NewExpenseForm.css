@@ -1,0 +1,7 @@
+.new-expense__actions {
+    margin-block-start: 1rem;
+}
+
+label {
+    margin-inline-end: .5rem;
+}
