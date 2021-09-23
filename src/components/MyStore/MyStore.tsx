@@ -20,7 +20,7 @@ const MyStore: FunctionComponent<MyStoreProps> = () => {
 
     return (
         <div className={classes["my-store"]}>
-            <div className={classes['my-store__title']}>
+            <div data-testid="title" className={classes['my-store__title']}>
                 My Store
             </div>
             <div className={classes["my-store__state"]}>
