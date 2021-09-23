@@ -23,12 +23,11 @@ describe('MyStore', () => {
 
     test('renders data from api', () => {
         window.fetch = jest.fn();
-        window.fetch.mockResolvedValueOnce(
-            {
-                json: async () => [1, 2, 3]
-            }
-        );
+        // window.fetch.mockResolvedValueOnce(
+        //     {
+        //         json: async () => [1, 2, 3]
+        //     }
+        // );
         render(<MyStore />);
-
     });
 });

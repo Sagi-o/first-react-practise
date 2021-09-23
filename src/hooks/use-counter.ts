@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useCounter = (step: number) => {
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState<number>(0);
 
     useEffect(() => {
         const interval = setInterval(() => {

@@ -1,11 +1,11 @@
-import { FunctionComponent } from 'react';
+import { FunctionComponent, MouseEventHandler } from 'react';
 import styles from './Button.module.css';
 
 interface ButtonProps {
-    onClick: Function;
+    onClick: MouseEventHandler
 }
  
-const Button: FunctionComponent<ButtonProps> = (props: any) => {
+const Button: FunctionComponent<ButtonProps> = (props) => {
     return (
         <button onClick={props.onClick} className={styles.button}>
             {props.children}
